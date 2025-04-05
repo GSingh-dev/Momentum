@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Momentum",
+    "slug": "momentum",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/momentum.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/momentum.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.batth.gurnoor.momentum"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/momentum.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "4b9794bb-8933-4cd1-978d-29bc501d9cb5"
+      }
+    },
+    "owner": "batth.gurnoor"
+  }
+}
